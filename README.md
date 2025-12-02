@@ -32,7 +32,7 @@ The project is implemented with a **modular and clean structure** , separating p
 
 ***
 
-##  Steps to Install & Run [cite: 94]
+##  Steps to Install & Run 
 
 1.  **Clone the Repository:**
     ```bash
@@ -54,7 +54,7 @@ The project is implemented with a **modular and clean structure** , separating p
 
 ***
 
-## Instructions for Testing & Validation [cite: 95]
+## Instructions for Testing & Validation
 
 The primary testing approach is visual and conceptual validation, critical for a simulation project.
 
@@ -63,3 +63,4 @@ The primary testing approach is visual and conceptual validation, critical for a
 3.  **Stability Check (Non-Functional Requirement):** Run the simulation for an extended period. The orbits should remain stable without significant spiraling inward or outward, which validates the use of the **Velocity Verlet Integrator** and the optimized `TIME_STEP` (Reliability requirement).
 
 4.  **Trail Check:** Confirm that the planetary trails are long and continuous, confirming the `MAX_TRAIL_LENGTH` setting.
+
